@@ -1,0 +1,76 @@
+body{
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
+  header{
+    height: 70px;
+    width: 100vw;
+    background-color: #fff;
+    position:fixed;
+    top:0;
+    z-index:24;
+   // div a{
+      //ロゴ画像なりそういうの }
+    ul{
+      display: flex;
+      width: 100%;
+      list-style-type: none;
+      line-height: 70px;
+
+      li{
+         margin: 0 40px 0 40px;
+        justify-content: space-between;
+        &:first-child{
+          margin-right: auto;
+        }
+        a{
+          color: #846A6C;
+          font-size: 23px;
+          text-decoration: none;
+          &:hover{
+            color: #D1C2C4;
+          }
+        }
+        
+      }
+    }
+  }
+  main{
+   
+    .billbord{
+       width:100vw;
+       height: 100vh;
+      background-image: url(../img/top_img.jpg);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      position: relative;
+      h1{
+      position: absolute;
+      top: 40vh;
+      right: 5vw;
+      font-size: 150px;
+      font-weight: 300;
+      color: #707070;
+    }
+    p{
+      text-align: right;
+      line-height: 1.5em;
+      position: absolute;
+      font-size: 30px;
+      top: 55vh;
+      padding-top: 50px;
+      right: 5vw;
+      color: #707070;
+    }
+    }
+    
+  }
+  footer{
+    background-color: #F2EBE3;
+    height: 60px;
+    p{
+      text-align: center;
+      line-height: 60px;
+    }
+  }
+
+}
